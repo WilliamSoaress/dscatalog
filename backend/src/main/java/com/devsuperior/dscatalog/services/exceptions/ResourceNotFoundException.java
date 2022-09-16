@@ -1,8 +1,8 @@
 package com.devsuperior.dscatalog.services.exceptions;
 
-public class EntityNotFoundException extends RuntimeException{
+public class ResourceNotFoundException extends RuntimeException{
 
-    public EntityNotFoundException(String msg){
+    public ResourceNotFoundException(String msg){
         super(msg);
     }
 }
